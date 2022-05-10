@@ -14,4 +14,4 @@ Exibindo erros ao preencher os campos<br>
 <img src="images/img3.png">
 
 Erros corrigidos e utilização do botão "Mostrar senha"<br>
-<img src="images/img4.png">
+<img width="300px" height='500px' src="images/img4.png">
