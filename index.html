@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen">
+        <div class="rightside">
+            <h1>Crie uma conta</h1>
+            <form method="POST" action="cadastro.php" class="validator1">
+                <label>
+                    Seu nome:</br>
+                    <input type='text' name="name" class="name" placeholder="Digite seu nome" data-rules="required|min=2">
+                </label>
+                <label>
+                    Seu E-Mail:</br>
+                    <input type='text' name="email" placeholder="Digite seu e-mail" data-rules="required|email">
+                </label>
+                <label>
+                    Sua senha:</br>
+                    <input type='password' class="pass" name="password" placeholder="Digite sua senha" data-rules="required|min=2">
+                </label>
+                <input type='button' class="hidePass" value="Mostrar senha" onclick="showPass()">
+                <div class="divClear">
+                    <button type='button' class="clearAll" onclick="reset()">Apagar tudo</button>
+                </div>
+                <label>
+                    <input type='submit' value="Cadastrar" class="btn-cadastrar" data-rules="required|general">
+                </label>
+            </form>
+            <div class="last-line">
+                Já tem uma conta? <b><a href="#">Faça o login</a></b>
+            </div>
+            <footer>Criado por <a href="https://github.com/BrendonSSilva" target="_blank"><b> Brendon</b></a></footer>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

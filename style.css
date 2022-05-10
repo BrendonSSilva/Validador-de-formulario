@@ -1,0 +1,106 @@
+*{
+    justify-content: center;
+}
+body{
+    background-color: #565555;
+    color: #ffffff;
+    margin: 0;
+}
+.screen{
+    display: flex;
+    height: 730px;
+}
+.rightside{
+    max-width: 45%;
+    background-color: #565555;
+    padding: 50px;
+    position: relative;
+}
+.rightside label{
+    font-size: 23px;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 20px;
+}
+.rightside input{
+    border: 2px solid #999;
+    border-radius: 3px;
+    padding: 8px;
+    font-size: 19px;
+    width: 100%;
+    outline: 0;
+    background-color: #999;
+}
+.rightside input:hover{
+    transition: 0.3s;
+    border: 2px solid #ffffff;
+}
+.hidePass{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.hidePass:hover{
+    background-color: rgba(3, 3, 3, 0.5);
+    color: #fff
+}
+
+.btn-cadastrar{
+    background-color: #999;
+    width: 100%;
+}
+.btn-cadastrar:hover{
+    background-color: rgba(3, 3, 3, 0.5);
+    transition: 0.3s;
+    color: #fff
+}
+.last-line{
+    display: grid;
+    place-items: center;
+}
+.last-line a{
+    font-size: 19px;
+    color: #fff;
+}
+.last-line a:hover{
+    transition: 0.3s;
+    color: #333;
+}
+.clearAll{
+    border: 1px solid #c71212;
+    border-radius: 3px;
+    font-size: 18px;
+    margin: 10px auto 20px;
+    padding: 6px;
+    background-color: #c71212;
+    color: #000;
+    width: 150px;
+    display: grid;
+    place-items: center;
+}
+.clearAll:hover{
+    background-color: #ff0000;
+    border-color: #fff !important;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.error{
+    color: #ffffff;
+    background-color: #ff0000;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 3px;
+}
+
+footer{
+    margin-top: 20px;
+    display: grid;
+    place-items: center;
+}
+footer a{
+    color: #fff;
+}
+footer a:hover{
+    color: #333;
+    transition: 0.3s;
+}
