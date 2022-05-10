@@ -4,14 +4,14 @@ Este projeto é um validador de formulário com mensagens personalizadas caso al
 
 #
 
-Tela inicial
+Tela inicial<br>
 <img src="images/img1.png">
 
-Exibindo quais campos são obrigatórios
+Exibindo quais campos são obrigatórios<br>
 <img src="images/img2.png">
 
-Exibindo erros ao preencher os campos
+Exibindo erros ao preencher os campos<br>
 <img src="images/img3.png">
 
-Erros corrigidos e utilização do botão "Mostrar senha"
+Erros corrigidos e utilização do botão "Mostrar senha"<br>
 <img src="images/img4.png">
