@@ -1,6 +1,6 @@
 # Validador de Formulário personalizado
 
-Este projeto é um validador de formulário com mensagens personalizadas caso algo preenchido esteja fora do desejado. Trazendo uma presença mais agradável.
+Este projeto é um validador de formulário com mensagens personalizadas caso algo preenchido esteja fora do desejado. Trazendo uma presença mais agradável.<br>
 Consegui praticar mais da parte dos atributos, for loop e também o uso do switch.
 
 #
