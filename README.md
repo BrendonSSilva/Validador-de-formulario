@@ -5,6 +5,8 @@ Consegui praticar mais da parte dos atributos, for loop e também o uso do switc
 
 #
 
+(Link no final)<br>
+
 Tela inicial<br>
 <img src="images/img1.png">
 
@@ -15,4 +17,6 @@ Exibindo erros ao preencher os campos<br>
 <img src="images/img3.png">
 
 Erros corrigidos e utilização do botão "Mostrar senha"<br>
-<img src="images/img4.png">
+<img src="images/img4.png"><br>
+
+Link: https://brendonssilva.github.io/Validador-de-formulario/
